@@ -1,70 +1,115 @@
 const DATA = [
     {
-        type: "热销",
+        type: "SASHIMI",
         content: [
             {
-                img: "img/rice.jpg",
-                name: "米饭",
-                detail: "香米，捞饭已含米饭",
-                price: "2.88"
+                img: "101.jpg",
+                name: "101 Salmao"
             }, {
-                img: "img/lmjt.jpg",
-                name: "老母鸡汤",
-                detail: "含米饭",
-                price: "39.8"
+                img: "102.jpg",
+                name: "102 Atum"
             }, {
-                img: "img/yzdxy.jpg",
-                name: "椰汁炖雪燕",
-                detail: "开业收藏",
-                price: "13.8"
+                img: "103.jpg",
+                name: "103 Peixe Manteiga"
             }, {
-                img: "img/hhtc.jpg",
-                name: "豪华2-3人套餐",
-                price: "128"
+                img: "104.jpg",
+                name: "104 Salmao Tostado"
+            }, {
+                img: "105.jpg",
+                name: "105 Atum Tostado"
+            }, {
+                img: "106.jpg",
+                name: "106 Manteiga Tostado"
             }
         ]
     }, {
-        type: "折扣",
+        type: "NIGIRI",
         content: [
             {
-                img: "img/bzlf.jpg",
-                name: "传承鲍汁捞饭",
-                detail: "成鲜，花胶，海参，虾仁，北极贝",
-                price: "65.8"
+                img: "201.jpg",
+                name: "201 Nngiri"
             }, {
-                img: "img/yrtc.jpg",
-                name: "奢华一人套餐",
-                detail: "成鲜，虾仁，木耳，鲍鱼",
-                price: "88"
+                img: "202.jpg",
+                name: "202 Nigiri"
             }, {
-                img: "img/xj.jpg",
-                name: "茶楼虾饺皇*五个装*",
-                detail: "原味，虾",
-                price: "16.8"
+                img: "203.jpg",
+                name: "203 Nigiri"
+            }, {
+                img: "204.jpg",
+                name: "204 Nigiri"
+            }, {
+                img: "205.jpg",
+                name: "205 Ebi"
+            }, {
+                img: "206.jpg",
+                name: "206 Nigiri"
+            }, {
+                img: "207.jpg",
+                name: "207 Nigiri"
+            }, {
+                img: "208.jpg",
+                name: "208 Nigiri Tostado"
             }
         ]
     }, {
-        type: "招牌",
+        type: "MAKIS",
         content: [
             {
-                img: "img/ftq.jpg",
-                name: "帝王佛跳墙",
-                detail: "昔日帝王宴如今桌上餐~",
-                price: "151.2"
+                img: "301.jpg",
+                name: "301 Salmao"
             }, {
-                img: "img/bymxr.jpg",
-                name: "鲍鱼闷虾仁",
-                detail: "原味，鲍鱼，虾仁",
-                price: "53.8"
+                img: "302.jpg",
+                name: "302 Atum"
+            }, {
+                img: "303.jpg",
+                name: "303 Ebi"
+            }, {
+                img: "304.jpg",
+                name: "304 Ebi"
+            }, {
+                img: "305.jpg",
+                name: "305 Morango"
+            }, {
+                img: "306.jpg",
+                name: "306 Salmao"
+            }, {
+                img: "307.jpg",
+                name: "307 Ebi"
+            }, {
+                img: "308.jpg",
+                name: "308 Abacate"
+            }, {
+                img: "309.jpg",
+                name: "309 Queijo"
+            }, {
+                img: "310.jpg",
+                name: "310 Abacate"
+            }, {
+                img: "311.jpg",
+                name: "311 For"
             }
         ]
     }, {
-        type: "热饮",
+        type: "GALIFORNIA",
         content: [
             {
-                img: "img/nc.jpg",
-                name: "原味奶茶",
-                price: "30"
+                img: "401.jpg",
+                name: "401 Carfornia"
+            }, {
+                img: "402.jpg",
+                name: "402 California"
+            }, {
+                img: "403.jpg",
+                name: "403 Ebi"
+            }, {
+                img: "404.jpg",
+                name: "404 California FR"
+            }, {
+                img: "405.jpg",
+                name: "405 Salmao"
+            }, {
+                img: "406.jpg",
+                name: "406 California"
             }
         ]
     }

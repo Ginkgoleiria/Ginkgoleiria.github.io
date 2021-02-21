@@ -9,11 +9,11 @@ $(function () {
         for (let content of data.content) {
             let item = $("<div/>").addClass("item");
             let img = $("<img/>").attr({
-                src: content.img
+                src: "img/" + content.img
             });
-            let name = $("<span/>").addClass("title").text(content.name);
+            let name = $("<span/>").addClass("title").append($("<strong/>").text(content.name.split(" ")[0]), "&nbsp;", $("<span/>").text(content.name.split(" ")[1]));
             let detail = $("<span/>").addClass("detail of").text(content.detail);
-            let price = $("<span/>").addClass("price").text(content.price);
+            let price = content.price?$("<span/>").addClass("price").text(content.price):$("<span/>");
             right.append($("<li/>").append(item.append(img, $("<div/>").addClass("info").append(name, detail, price))));
         }
         let lt = $("<li/>").text(data.type);
