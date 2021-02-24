@@ -9,9 +9,10 @@ $(function () {
         for (let content of data.content) {
             let item = $("<div/>").addClass("item");
             let img = $("<img/>").attr({
-                src: "img/" + content.img
-            });
-            let name = $("<span/>").addClass("title").append($("<strong/>").text(content.name.split(" ")[0]), "&nbsp;", $("<span/>").text(content.name.split(" ")[1]));
+                src: "img/" + content.img,
+				onerror: 'this.src="img/error.jpg";this.onerror=null'
+            })
+            let name = $("<span/>").addClass("title").append($("<strong/>").text(content.num), "&nbsp;", $("<span/>").text(content.name));
             let detail = $("<span/>").addClass("detail of").text(content.detail);
             let price = content.price?$("<span/>").addClass("price").text(content.price):$("<span/>");
             right.append($("<li/>").append(item.append(img, $("<div/>").addClass("info").append(name, detail, price))));
